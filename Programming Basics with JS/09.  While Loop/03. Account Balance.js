@@ -14,6 +14,7 @@ function solve(input) {
         total = total + money;
         counter++;
     }
+    
     console.log(`Total: ${total.toFixed(2)}`);
 
 }
