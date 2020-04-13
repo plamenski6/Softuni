@@ -7,6 +7,7 @@ function solve(input) {
         console.log(output);
         output = output * 2 + 1;
     }
+    
 }
 
 solve([8]);
