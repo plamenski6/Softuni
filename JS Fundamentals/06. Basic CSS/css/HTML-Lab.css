@@ -1,0 +1,43 @@
+h1{
+    color:blue;
+}
+p{
+    color:darkviolet;
+}
+li{
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+}
+span{
+    border-style: dotted;
+    border-color: darkcyan;
+}
+
+#green, #blue, #red, #purple, #orange{
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: yellow;
+    margin: 20px;
+    font-family: 'Mansalva', cursive;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#purple{
+    background-color: purple;
+}
+#orange{
+    background-color: orange;
+}
