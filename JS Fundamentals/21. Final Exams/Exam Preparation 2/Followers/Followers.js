@@ -55,8 +55,7 @@ function solve(input) {
     console.log(`${arr.length} followers`);
     arr.forEach(el => {
         console.log(`${el[0]}: ${el[1].likes + el[1].comments}`);
-    })
-    console.log(arr);
+    });
 
 }
 
