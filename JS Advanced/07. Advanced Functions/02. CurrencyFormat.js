@@ -1,4 +1,5 @@
 function reduceFuncParams(currencyFormatter) {
+    
     let separator = ",";
     let symbol = "$";
     let symbolFirst = true;
@@ -8,6 +9,7 @@ function reduceFuncParams(currencyFormatter) {
 }
 
 function currencyFormatter(separator, symbol, symbolFirst, value) {
+    
     let result = Math.trunc(value) + separator;
     result += value.toFixed(2).substr(-2,2);
     if (symbolFirst) return symbol + ' ' + result;
