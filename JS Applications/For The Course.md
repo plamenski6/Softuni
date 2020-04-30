@@ -19,4 +19,3 @@
 СЕРТИФИКАТ
 ----------
 ![JavaScript Applications - February 2020](https://github.com/plamenski6/Certificates/blob/master/JavaScript%20Applications%20-%20February%202020.jpg)
-Format: ![Alt Text](url)
