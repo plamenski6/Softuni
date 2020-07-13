@@ -8,3 +8,8 @@
 - MVC архитектура
 - Основни познания по HTTP протокола
 - Работа с нерелационни бази данни
+
+
+# СЕРТИФИКАТ
+----------
+![JavaScript Back-End - May 2020](https://github.com/plamenski6/Certificates/blob/master/JavaScript%20Back-End%20-%20May%202020.jpg)
