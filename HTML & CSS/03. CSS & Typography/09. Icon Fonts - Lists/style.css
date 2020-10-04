@@ -1,0 +1,18 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+    font-family: Helvetica, serif;
+}
+
+section {
+    padding: 3em;
+}
+
+.icons {
+    list-style-type: none;
+    padding-bottom: 1.5em;
+}
+
+i {
+    padding-right: 0.5em;
+}
