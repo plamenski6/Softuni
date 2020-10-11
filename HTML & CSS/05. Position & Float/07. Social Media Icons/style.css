@@ -1,0 +1,37 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+body {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    border-radius: 50%;
+}
+
+.fb:hover {
+    color: darkblue;
+}
+
+.tw:hover {
+    color: skyblue;
+}
+
+.gplus:hover {
+    color: red
+}
+
+.ln:hover {
+    color: blue
+}
+
+.insta:hover {
+    color: grey
+}
