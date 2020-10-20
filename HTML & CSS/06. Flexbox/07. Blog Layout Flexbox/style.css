@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.site-title {
+    font-weight: bold;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+.first-img {
+    float: right;
+}
+
+blockquote {
+    float: right;
+    font-family: Georgia, serif;
+}
+
+.second-img {
+    float: left;
+}
+
+main {
+    display: flex;
+}
+
+a {
+    color: rgb(0, 153, 0);    
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}

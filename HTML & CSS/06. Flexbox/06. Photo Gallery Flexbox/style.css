@@ -1,0 +1,13 @@
+body {
+    display: flex;
+}
+
+.gallery ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}

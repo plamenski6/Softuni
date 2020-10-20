@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+
+header {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+main {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+aside {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+footer {
+    border: 1px solid black;
+    margin: 5px;
+}

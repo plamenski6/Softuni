@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.cards-layout.masonry {
+    display: inline-block;
+
+}
+
+.cards-layout.flex {
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    max-width: 320px
+}
