@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.site-title {
+    font-weight: bold;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+.first-img {
+    float: right;
+}
+
+blockquote {
+    float: right;
+    font-family: Georgia, serif;
+}
+
+.second-img {
+    float: left;
+}
+
+main {
+    display: flex;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1300px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1800px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+}

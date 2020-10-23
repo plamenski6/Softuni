@@ -1,0 +1,16 @@
+p {
+    width: fit-content;
+    margin: 0;
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+}
+
+.form {
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.username {
+    margin-top: 20px;
+}

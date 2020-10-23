@@ -1,0 +1,80 @@
+header nav ul {
+    display: flex;
+    margin: 0;
+}
+
+header nav li {
+    display: block;
+    list-style: none outside;
+}
+
+header nav li a {
+    display: block;
+    text-decoration: none;
+    background: rgba(45, 45, 45);
+    color: #FFF;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    border-radius: 0.3rem;
+}
+
+header nav li a:hover {
+    display: block;
+    text-decoration: none;
+    background: rgb(1, 163, 15);
+    color: #FFF;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+    border-radius: 0.3rem;
+}
+
+#toggle, #main-nav-toggle {
+    display: none;
+}
+
+#toggle .fas {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+#toggle .fas.fa-times {
+    display: none
+}
+
+@media screen and (max-width:800px) {
+    nav.main {
+        display: none;
+    }
+    nav.main>ul {
+        display: block;
+    }
+    #toggle {
+        display: block;
+    }
+    nav.main ul li:not(:last-child) {
+        padding: 0 0 1rem 0;
+    }
+    #main-nav-toggle:checked+header nav.main {
+        text-align: center;
+        border-top: 1px solid black;
+        padding: 1rem 0;
+        display: block;
+        flex: 1 0 100%;
+    }
+    #main-nav-toggle:checked+header #toggle .fa-times {
+        display: inline-block;
+    }
+    #main-nav-toggle:checked+header #toggle .fa-bars {
+        display: none;
+    }
+}
+
+@media screen and (min-width:800px) {
+    #toggle {
+        display: none;
+    }
+    header nav li:not(:last-child) {
+        margin-right: 1rem;
+    }
+    nav.main>ul>li:not(:last-child) {
+        padding-right: 0.7rem;
+    }
+}
